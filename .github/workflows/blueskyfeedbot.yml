@@ -29,11 +29,10 @@ jobs:
           rss-feed: https://api.3cat.cat/noticies?_format=rss&origen=frontal&frontal=n324-portada-noticia&version=2.0
           # Template of status posted to Bluesky (Handlebars)
           template: |
-            {{{item.title}}}
+            {{{item.title}}}            
+            {{item.link}}
             
             {{{item.description}}}
-            
-            {{item.link}}
           # This is your service URL (optional)
           service-url: https://bsky.social
           # This is the Bluesky username (example: username.bsky.social)
