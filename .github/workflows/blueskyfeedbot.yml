@@ -30,7 +30,9 @@ jobs:
           # Template of status posted to Bluesky (Handlebars)
           template: |
             {{{item.title}}}
-
+            {{item.description}}
+            {{item.image}}
+            
             {{item.link}}
           # This is your service URL (optional)
           service-url: https://bsky.social
