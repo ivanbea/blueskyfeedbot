@@ -1,4 +1,5 @@
 # Bluesky Feed Bot
+variació per 324cat
 
 Bluesky Feed Bot is a GitHub Action for posting RSS feeds to Bluesky via GitHub Actions workflows.
 
