@@ -31,8 +31,6 @@ jobs:
           template: |
             {{{item.title}}}            
             {{item.link}}
-            
-            {{{item.description}}}
           # This is your service URL (optional)
           service-url: https://bsky.social
           # This is the Bluesky username (example: username.bsky.social)
